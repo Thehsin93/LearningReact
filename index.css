@@ -1,0 +1,13 @@
+
+.UserIcon{
+height:50px;
+width:50px;
+}
+.textbox {
+    border: 1px solid #f3f3f3 !important;
+    height: 2rem !important;
+    box-sizing: border-box !important;
+    padding: 1px 10px !important;
+    outline: none !important;
+    transition: 0.2s ease-in-out !important;
+  }
