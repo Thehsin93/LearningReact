@@ -12,4 +12,50 @@
   transition: all .2s ease-in-out !important;
 }
 
+.header {
+  border: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo {
+  width: 200px;
+}
+
+.nav-bar > ul {
+  font-size: 24px;
+  display: flex;
+}
+
+.nav-bar > ul > li {
+  margin: 10px;
+  list-style-type: none;
+}
+
+.rescard {
+  background-color: #f0f0f0;
+  width: 200px;
+  height: 300px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.rescard:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.search {
+  padding: 10px;
+}
+
+.reslogo {
+  width: 100%;
+}
+
 /*# sourceMappingURL=index.9e4c6fd2.css.map */

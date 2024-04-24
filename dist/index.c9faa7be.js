@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"3QC3y":[function(require,module,exports) {
+})({"8iD0D":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "0a8ecb283d214d75";
+module.bundle.HMR_BUNDLE_ID = "f4e34e51c9faa7be";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -2939,11 +2939,11 @@ process.umask = function() {
     return 0;
 };
 
-},{}],"bB7Pu":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$e4e3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"9mWNv":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$bd5c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$e4e3.prelude(module);
+$parcel$ReactRefreshHelpers$bd5c.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -2952,7 +2952,7 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-const Heading = ()=>{
+const heading = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "header",
         children: [
@@ -2962,12 +2962,12 @@ const Heading = ()=>{
                     className: "logo",
                     src: "https://th.bing.com/th?id=OIP.g_EYshV4TBrKFonMmN2KEgHaE7&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
                 }, void 0, false, {
-                    fileName: "index.js",
+                    fileName: "indexNew.js",
                     lineNumber: 8,
                     columnNumber: 13
                 }, undefined)
             }, void 0, false, {
-                fileName: "index.js",
+                fileName: "indexNew.js",
                 lineNumber: 7,
                 columnNumber: 13
             }, undefined),
@@ -2978,421 +2978,76 @@ const Heading = ()=>{
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "Home"
                         }, void 0, false, {
-                            fileName: "index.js",
+                            fileName: "indexNew.js",
                             lineNumber: 14,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "About"
                         }, void 0, false, {
-                            fileName: "index.js",
+                            fileName: "indexNew.js",
                             lineNumber: 15,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "Contact"
                         }, void 0, false, {
-                            fileName: "index.js",
+                            fileName: "indexNew.js",
                             lineNumber: 16,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "Cart"
                         }, void 0, false, {
-                            fileName: "index.js",
+                            fileName: "indexNew.js",
                             lineNumber: 17,
                             columnNumber: 21
                         }, undefined)
                     ]
                 }, void 0, true, {
-                    fileName: "index.js",
+                    fileName: "indexNew.js",
                     lineNumber: 13,
                     columnNumber: 17
                 }, undefined)
             }, void 0, false, {
-                fileName: "index.js",
+                fileName: "indexNew.js",
                 lineNumber: 12,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "index.js",
+        fileName: "indexNew.js",
         lineNumber: 6,
         columnNumber: 9
     }, undefined);
 };
-_c = Heading;
-const Rescard = (props)=>{
-    const { resData } = props;
-    const { name, cuisines, avgRating } = resData?.data;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "rescard",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                className: "reslogo",
-                src: "https://img2.storyblok.com/filters:format(webp)/f/62776/804x420/e1de7f270d/salad_wide.png",
-                alt: "rescard"
-            }, void 0, false, {
-                fileName: "index.js",
-                lineNumber: 27,
-                columnNumber: 9
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                children: name
-            }, void 0, false, {
-                fileName: "index.js",
-                lineNumber: 28,
-                columnNumber: 9
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                children: cuisines.join(",")
-            }, void 0, false, {
-                fileName: "index.js",
-                lineNumber: 29,
-                columnNumber: 9
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                children: avgRating
-            }, void 0, false, {
-                fileName: "index.js",
-                lineNumber: 30,
-                columnNumber: 9
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "index.js",
-        lineNumber: 26,
-        columnNumber: 13
-    }, undefined);
-};
-_c1 = Rescard;
-const resList = [
-    {
-        type: "restaurant",
-        data: {
-            type: "F",
-            id: "334475",
-            name: "KFC",
-            uuid: "eaed0e3b-7c0e-4367-8f59-f41d309fb93a",
-            city: "1",
-            area: "BTM Layout",
-            totalRatingsString: "500+ ratings",
-            cloudinaryImageId: "bdcd233971b7c81bf77e1fa4471280eb",
-            cuisines: [
-                "Burgers",
-                "Biryani",
-                "American",
-                "Snacks",
-                "Fast Food"
-            ],
-            tags: [],
-            costForTwo: 40000,
-            costForTwoString: "\u20B9400 FOR TWO",
-            deliveryTime: 36,
-            minDeliveryTime: 36,
-            maxDeliveryTime: 36,
-            slaString: "36 MINS",
-            lastMileTravel: 3.5,
-            slugs: {
-                restaurant: "kfc-btm-layout-btm",
-                city: "bangalore"
-            },
-            cityState: "1",
-            address: "KFC restaurants, 942,SV Tower, 16th Main, BTM 2nd Stage ,560076",
-            locality: "2nd Stage",
-            parentId: 547,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: "FREE DELIVERY",
-                shortDescriptionList: [
-                    {
-                        meta: "FREE DELIVERY",
-                        discountType: "FREE_DELIVERY",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "FREE DELIVERY",
-                        discountType: "FREE_DELIVERY",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                subHeader: "",
-                headerType: 0,
-                superFreedel: ""
-            },
-            aggregatedDiscountInfoV2: {
-                header: "",
-                shortDescriptionList: [
-                    {
-                        meta: "Free Delivery",
-                        discountType: "FREE_DELIVERY",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "FREE DELIVERY",
-                        discountType: "FREE_DELIVERY",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                subHeader: "",
-                headerType: 0,
-                superFreedel: ""
-            },
-            ribbon: [
-                {
-                    type: "PROMOTED"
-                }
-            ],
-            chain: [],
-            feeDetails: {
-                fees: [],
-                totalFees: 0,
-                message: "",
-                title: "",
-                amount: "",
-                icon: ""
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: "",
-                nextCloseMessage: ""
-            },
-            longDistanceEnabled: 0,
-            rainMode: "NONE",
-            thirdPartyAddress: false,
-            thirdPartyVendor: "",
-            adTrackingID: "cid=6109309~p=1~eid=00000186-a341-249f-05e6-09c500910178",
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: "3.5 kms",
-            hasSurge: false,
-            sla: {
-                restaurantId: "334475",
-                deliveryTime: 36,
-                minDeliveryTime: 36,
-                maxDeliveryTime: 36,
-                lastMileTravel: 3.5,
-                lastMileDistance: 0,
-                serviceability: "SERVICEABLE",
-                rainMode: "NONE",
-                longDistance: "NOT_LONG_DISTANCE",
-                preferentialService: false,
-                iconType: "EMPTY"
-            },
-            promoted: true,
-            avgRating: "3.8",
-            totalRatings: 500,
-            new: false
-        },
-        subtype: "basic"
-    },
-    {
-        type: "restaurant",
-        data: {
-            type: "F",
-            id: "229",
-            name: "Meghana Foods",
-            uuid: "4fdd19e2-5d0f-4bde-9c7f-dc3e8d36021f",
-            city: "1",
-            area: "Koramangala",
-            totalRatingsString: "1000+ ratings",
-            cloudinaryImageId: "xqwpuhgnsaf18te7zvtv",
-            cuisines: [
-                "Biryani",
-                "Andhra",
-                "South Indian",
-                "North Indian",
-                "Chinese",
-                "Seafood"
-            ],
-            tags: [],
-            costForTwo: 50000,
-            costForTwoString: "\u20B9500 FOR TWO",
-            deliveryTime: 29,
-            minDeliveryTime: 29,
-            maxDeliveryTime: 29,
-            slaString: "29 MINS",
-            lastMileTravel: 1.399999976158142,
-            slugs: {
-                restaurant: "meghana-foods-5th-block-koramangala",
-                city: "bangalore"
-            },
-            cityState: "1",
-            address: "124, Near Jyothi Nivas College, 1st Cross, KHB Colony, Koramangala 5th Block, Bangalore",
-            locality: "5th Block",
-            parentId: 635,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: "FREE DELIVERY",
-                shortDescriptionList: [
-                    {
-                        meta: "FREE DELIVERY",
-                        discountType: "FREE_DELIVERY",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "FREE DELIVERY",
-                        discountType: "FREE_DELIVERY",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                subHeader: "",
-                headerType: 0,
-                superFreedel: ""
-            },
-            aggregatedDiscountInfoV2: {
-                header: "",
-                shortDescriptionList: [
-                    {
-                        meta: "Free Delivery",
-                        discountType: "FREE_DELIVERY",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "FREE DELIVERY",
-                        discountType: "FREE_DELIVERY",
-                        operationType: "RESTAURANT"
-                    }
-                ],
-                subHeader: "",
-                headerType: 0,
-                superFreedel: ""
-            },
-            chain: [],
-            feeDetails: {
-                fees: [],
-                totalFees: 0,
-                message: "",
-                title: "",
-                amount: "",
-                icon: ""
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: "",
-                nextCloseMessage: ""
-            },
-            longDistanceEnabled: 0,
-            rainMode: "NONE",
-            thirdPartyAddress: false,
-            thirdPartyVendor: "",
-            adTrackingID: "",
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: "1.3 kms",
-            hasSurge: false,
-            sla: {
-                restaurantId: "229",
-                deliveryTime: 29,
-                minDeliveryTime: 29,
-                maxDeliveryTime: 29,
-                lastMileTravel: 1.399999976158142,
-                lastMileDistance: 0,
-                serviceability: "SERVICEABLE",
-                rainMode: "NONE",
-                longDistance: "NOT_LONG_DISTANCE",
-                preferentialService: false,
-                iconType: "EMPTY"
-            },
-            promoted: false,
-            avgRating: "4.4",
-            totalRatings: 1000,
-            new: false
-        },
-        subtype: "basic"
-    }
-];
-const Body = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "Body",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "search",
-                children: "search"
-            }, void 0, false, {
-                fileName: "index.js",
-                lineNumber: 290,
-                columnNumber: 9
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "res-container",
-                children: resList.map((restaurant)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Rescard, {
-                        resData: restaurant
-                    }, restaurant.data.id, false, {
-                        fileName: "index.js",
-                        lineNumber: 293,
-                        columnNumber: 40
-                    }, undefined))
-            }, void 0, false, {
-                fileName: "index.js",
-                lineNumber: 291,
-                columnNumber: 9
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "index.js",
-        lineNumber: 289,
-        columnNumber: 9
-    }, undefined);
-};
-_c2 = Body;
+_c = heading;
 const Applayout = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "app",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Heading, {}, void 0, false, {
-                fileName: "index.js",
-                lineNumber: 303,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
-                fileName: "index.js",
-                lineNumber: 304,
-                columnNumber: 13
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "index.js",
-        lineNumber: 302,
+        class: "app",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("heading", {}, void 0, false, {
+            fileName: "indexNew.js",
+            lineNumber: 27,
+            columnNumber: 13
+        }, undefined)
+    }, void 0, false, {
+        fileName: "indexNew.js",
+        lineNumber: 26,
         columnNumber: 9
     }, undefined);
 };
-_c3 = Applayout;
+_c1 = Applayout;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Applayout, {}, void 0, false, {
-    fileName: "index.js",
-    lineNumber: 311,
+    fileName: "indexNew.js",
+    lineNumber: 34,
     columnNumber: 13
 }, undefined));
-var _c, _c1, _c2, _c3;
-$RefreshReg$(_c, "Heading");
-$RefreshReg$(_c1, "Rescard");
-$RefreshReg$(_c2, "Body");
-$RefreshReg$(_c3, "Applayout");
+var _c, _c1;
+$RefreshReg$(_c, "heading");
+$RefreshReg$(_c1, "Applayout");
 
-  $parcel$ReactRefreshHelpers$e4e3.postlude(module);
+  $parcel$ReactRefreshHelpers$bd5c.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
@@ -27752,6 +27407,6 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}]},["3QC3y","1xC6H","bB7Pu"], "bB7Pu", "parcelRequire4255")
+},{"7422ead32dcc1e6b":"786KC"}]},["8iD0D","1xC6H","9mWNv"], "9mWNv", "parcelRequire4255")
 
-//# sourceMappingURL=index.3d214d75.js.map
+//# sourceMappingURL=index.c9faa7be.js.map

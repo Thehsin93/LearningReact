@@ -2,7 +2,7 @@
   "name": "reactprojects",
   "version": "1.0.0",
   "description": "namaste react learning",
-  "main": "index.js",
+  "main": "indexNew.js",
   "scripts": {
     "test": "jest"
   },
