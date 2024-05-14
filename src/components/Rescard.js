@@ -1,11 +1,12 @@
+import { imgurl } from "../Constants/Mockdata";
 const Rescard= (props) =>{
     const {resData} = props;
    
-    const {name,cuisines,avgRating} = resData?.info;
-    return (<div data-testid="resCard" className="bg-slate-300 hover:bg-gray-500 rounded-lg my-2 border border-solid border-black w-[250px]">
-        <img className="w-40 mx-1" src="https://img2.storyblok.com/filters:format(webp)/f/62776/804x420/e1de7f270d/salad_wide.png" alt="rescard"></img>
-        <h3>{name}</h3>
-        <h4>{cuisines.join(",")}</h4>
+    const {name,cuisines,avgRating,cloudinaryImageId} = resData?.info;
+    return (<div data-testid="resCard" className="m-4 p-4 w-[250px] rounded-lg bg-gray-100 hover:bg-gray-200">
+        <img className="rounded-lg w-[200px] h-[150px] items-center" src={imgurl+cloudinaryImageId} alt="rescard"></img>
+        <h3 className="text-wrap">{name}</h3>
+        <h4 className="overflow-hidden whitespace-normal">{cuisines.join(",")}</h4>
         <h4>{avgRating}</h4>
     </div>)
 }

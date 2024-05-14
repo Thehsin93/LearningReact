@@ -12,22 +12,20 @@ const Heading = () =>{
     
     const [logtext,ChangeLog] = useState("Login");
     return (
-        <div className="flex justify-between  bg-gray-200">
+        <div className="flex justify-between  bg-gray-100 shadow-lg rounded-2xl">
             <div>
-            <img className="w-56" src={resLogo}>
+            <img className="w-40 p-2 rounded-2xl" src={resLogo}>
 
             </img>
             </div>
             <div className="flex  items-center">
                 <ul className="flex flex-wrap items-center ">
-                    <li className="px-5 m-5"><Link to="/">Home</Link></li>
-                    <li className="px-5 m-5"><Link to="/About">About</Link></li>
-                    <li className="px-5 m-5"><Link to="/Contact">Contact</Link></li>
-                    <li className="px-5 m-5"><Link to="/Cart">Cart({cartItems.length})</Link></li>
-                    <button onClick={()=>
-                    {return logtext=="Login"?ChangeLog("Logout"):ChangeLog("Login")}}>{logtext}</button>
-                       <li className="px-4">Online Status: {onlineStatus ? "✅" : "🔴"}</li>
-                       <li>{user.LoggedUser}</li>
+                    <li className="px-5 m-5 underline"><Link to="/">Home</Link></li>
+                    <li className="px-5 m-5 underline"><Link to="/About">About</Link></li>
+                   
+                    <li className="px-5 m-5 underline"><Link to="/Cart">Cart({cartItems.length})</Link></li>
+                       <li className="px-4 underline">Online Status: {onlineStatus ? "✅" : "🔴"}</li>
+                     
                 </ul>
             </div>
         </div>

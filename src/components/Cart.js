@@ -14,7 +14,7 @@ const Cart = ()=>{
             Cart
         </div>
         <div className="w-6/12 m-auto">
-            <button className="p-2 m-2 rounded-lg bg-black text-white" onClick={ClearCart}>Clear Cart</button>
+           {cartItes.length>0&& <button className="p-2 m-2 rounded-lg bg-black text-white" onClick={ClearCart}>Clear Cart</button>}
         <ItemList items={cartItes}>
 
         </ItemList>

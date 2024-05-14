@@ -254,7 +254,9 @@ export const resList = [
     }
 ];
 
-export const resLogo = "https://img2.storyblok.com/filters:format(webp)/f/62776/804x420/e1de7f270d/salad_wide.png";
+export const resLogo = "https://th.bing.com/th/id/OIP.sJ2uHW2ov2t50HvN15sKLAHaFL?w=295&h=187&c=7&r=0&o=5&dpr=1.5&pid=1.7";
 
 export const Menulink ="https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.9351929&lng=77.62448069999999&restaurantId="
+
+export const arrowLink = "https://th.bing.com/th?id=OIP.4yicplh21FyPmI-_VOb3kwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2";
 

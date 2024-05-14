@@ -15,7 +15,7 @@ const ItemList = ({items})=>{
                   <div className="w-9/12"> 
                 <div className="py-2">
                     <span>{itm?.card?.info?.name}</span>
-                    <span>- ₹{itm?.card?.info?.price/100 || itm?.card?.info?.defaultprice/100}</span>
+                    <span>- ₹{itm?.card?.info?.price || itm?.card?.info?.defaultprice}</span>
                     </div>
                     <p className="text-xs">{itm?.card?.info?.description}</p>
                     
@@ -25,7 +25,7 @@ const ItemList = ({items})=>{
                         <div className="absolute">
                         <button className="p-2 mx-16 rounded-lg bg-white shadow-lg" onClick={()=>handleItem(itm)}>Add +</button>
                         </div>
-                    <img src={imgurl+itm?.card?.info?.imageId} className="w-full"></img>
+                    <img src={imgurl+itm?.card?.info?.imageId} className="w-full h-[100px]"></img>
                         </div>
                     </div>
 

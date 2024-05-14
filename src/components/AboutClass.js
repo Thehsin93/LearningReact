@@ -14,18 +14,30 @@ class AboutClass extends React.Component{
         }
     }
     render(){
-        return <div ClassName="AboutClass">
-            <h1>ghaha</h1>
-            <DummyClass name="Thehsin" subject = "Learning React"></DummyClass>
-            <li>{this.state?.userinfo?.login}</li>
-            <li>{this.state?.userinfo?.id}</li>
-            <div>
+        return <div className="w-1/2 mx-auto mt-[8%] shadow-lg text-center">
+           
+            
+            <h1 className="underline">Key Features</h1>
+            <p className="text-left">
+                <ul className="p-8">
+                <li>Listing of reastuarant cards from Swiggy API</li>
+                <li className="pt-1">React Routing</li>
+                <li className="pt-1">Viewing the restaurant menu on clicking the restaurant cards</li>
+                <li className="pt-1">Filter the top rated button clicking on the top rated button</li>
+                <li className="pt-1">search for restaurants by name using the text field and search button</li>
+                <li className="pt-1">search for restaurants by name using the text field and search button</li>
+                <li className="pt-1">Accordian implementation by shifting the state up </li>
+                <li className="pt-1">storing to carts using redux state management </li>
+                </ul>
+            </p>
+           
+            {/*<div>
                 <UserContext.Consumer>
                     {
                         (data)=><h1>{data.LoggedUser}</h1>
                     }
                 </UserContext.Consumer>
-            </div>
+                </div>*/}
         </div>
 
     }

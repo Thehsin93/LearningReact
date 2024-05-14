@@ -20,3 +20,49 @@ it("Should render Header Component with a login button", () => {
   
     expect(loginButton).toBeInTheDocument();
   });
+
+  it("Should render Header Component with a Cart items 0 ", () => {
+    render(
+      <BrowserRouter>
+        <Provider store={appStore}>
+          <Header />
+        </Provider>
+      </BrowserRouter>
+    );
+  
+    const cartItems = screen.getByText("Cart - (0 items)");
+  
+    expect(cartItems).toBeInTheDocument();
+  });
+  
+  it("Should render Header Component with a Cart item ", () => {
+    render(
+      <BrowserRouter>
+        <Provider store={appStore}>
+          <Header />
+        </Provider>
+      </BrowserRouter>
+    );
+  
+    const cartItems = screen.getByText(/Cart/);
+  
+    expect(cartItems).toBeInTheDocument();
+  });
+  
+  it("Should change Login Button to Logout on click", () => {
+    render(
+      <BrowserRouter>
+        <Provider store={appStore}>
+          <Header />
+        </Provider>
+      </BrowserRouter>
+    );
+  
+    const loginButton = screen.getByRole("button", { name: "Login" });
+  
+    fireEvent.click(loginButton);
+  
+    const logoutButton = screen.getByRole("button", { name: "Logout" });
+  
+    expect(logoutButton).toBeInTheDocument();
+  });

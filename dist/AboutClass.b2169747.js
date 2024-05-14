@@ -627,54 +627,93 @@ class AboutClass extends (0, _reactDefault.default).Component {
     }
     render() {
         return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            ClassName: "AboutClass",
+            className: "w-1/2 mx-auto mt-[8%] shadow-lg text-center",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    children: "ghaha"
-                }, void 0, false, {
-                    fileName: "src/components/AboutClass.js",
-                    lineNumber: 18,
-                    columnNumber: 13
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dummyClassDefault.default), {
-                    name: "Thehsin",
-                    subject: "Learning React"
-                }, void 0, false, {
-                    fileName: "src/components/AboutClass.js",
-                    lineNumber: 19,
-                    columnNumber: 13
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                    children: this.state?.userinfo?.login
+                    className: "underline",
+                    children: "Key Features"
                 }, void 0, false, {
                     fileName: "src/components/AboutClass.js",
                     lineNumber: 20,
                     columnNumber: 13
                 }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                    children: this.state?.userinfo?.id
-                }, void 0, false, {
-                    fileName: "src/components/AboutClass.js",
-                    lineNumber: 21,
-                    columnNumber: 13
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _userContextDefault.default).Consumer, {
-                        children: (data)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                children: data.LoggedUser
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    className: "text-left",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        className: "p-8",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: "Listing of reastuarant cards from Swiggy API"
+                            }, void 0, false, {
+                                fileName: "src/components/AboutClass.js",
+                                lineNumber: 23,
+                                columnNumber: 17
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "pt-1",
+                                children: "React Routing"
+                            }, void 0, false, {
+                                fileName: "src/components/AboutClass.js",
+                                lineNumber: 24,
+                                columnNumber: 17
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "pt-1",
+                                children: "Viewing the restaurant menu on clicking the restaurant cards"
                             }, void 0, false, {
                                 fileName: "src/components/AboutClass.js",
                                 lineNumber: 25,
-                                columnNumber: 33
+                                columnNumber: 17
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "pt-1",
+                                children: "Filter the top rated button clicking on the top rated button"
+                            }, void 0, false, {
+                                fileName: "src/components/AboutClass.js",
+                                lineNumber: 26,
+                                columnNumber: 17
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "pt-1",
+                                children: "search for restaurants by name using the text field and search button"
+                            }, void 0, false, {
+                                fileName: "src/components/AboutClass.js",
+                                lineNumber: 27,
+                                columnNumber: 17
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "pt-1",
+                                children: "search for restaurants by name using the text field and search button"
+                            }, void 0, false, {
+                                fileName: "src/components/AboutClass.js",
+                                lineNumber: 28,
+                                columnNumber: 17
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "pt-1",
+                                children: "Accordian implementation by shifting the state up "
+                            }, void 0, false, {
+                                fileName: "src/components/AboutClass.js",
+                                lineNumber: 29,
+                                columnNumber: 17
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "pt-1",
+                                children: "storing to carts using redux state management "
+                            }, void 0, false, {
+                                fileName: "src/components/AboutClass.js",
+                                lineNumber: 30,
+                                columnNumber: 17
                             }, this)
-                    }, void 0, false, {
+                        ]
+                    }, void 0, true, {
                         fileName: "src/components/AboutClass.js",
-                        lineNumber: 23,
+                        lineNumber: 22,
                         columnNumber: 17
                     }, this)
                 }, void 0, false, {
                     fileName: "src/components/AboutClass.js",
-                    lineNumber: 22,
+                    lineNumber: 21,
                     columnNumber: 13
                 }, this)
             ]
