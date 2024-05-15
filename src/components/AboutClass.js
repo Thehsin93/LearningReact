@@ -26,7 +26,7 @@ class AboutClass extends React.Component{
                 <li className="pt-1">Viewing the restaurant menu on clicking the restaurant cards</li>
                 <li className="pt-1">Filter the top rated button clicking on the top rated button</li>
                 <li className="pt-1">search for restaurants by name using the text field and search button</li>
-                <li className="pt-1">Accordian implementation by shifting the state up </li>
+                <li className="pt-1">Accordian implementation by lifting the state up </li>
                 <li className="pt-1">storing to carts using redux state management </li>
                 </ul>
             </p>
