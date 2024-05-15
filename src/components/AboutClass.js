@@ -20,11 +20,11 @@ class AboutClass extends React.Component{
             <h1 className="underline">Key Features</h1>
             <p className="text-left">
                 <ul className="p-8">
-                <li>Listing of reastuarant cards from Swiggy API</li>
+                <li>Listing of reastuarant cards from API</li>
                 <li className="pt-1">React Routing</li>
+                <li className="pt-1">Shimmer UI</li>
                 <li className="pt-1">Viewing the restaurant menu on clicking the restaurant cards</li>
                 <li className="pt-1">Filter the top rated button clicking on the top rated button</li>
-                <li className="pt-1">search for restaurants by name using the text field and search button</li>
                 <li className="pt-1">search for restaurants by name using the text field and search button</li>
                 <li className="pt-1">Accordian implementation by shifting the state up </li>
                 <li className="pt-1">storing to carts using redux state management </li>
