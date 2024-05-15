@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
 import { imgurl } from "../Constants/Mockdata"
-import { addItem } from "../utils/cartSlice";
+import { addItem } from "../Utils/cartSlice";
 
 const ItemList = ({items})=>{
     const dispatch = useDispatch();
