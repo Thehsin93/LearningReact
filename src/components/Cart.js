@@ -5,7 +5,7 @@ import { clearCart } from "../Utils/cartSlice";
 
 const Cart = ()=>{
     const dispatch = useDispatch();
-    ClearCart = ()=>{
+    const ClearCart = ()=>{
         dispatch(clearCart());
     }
     const cartItes = useSelector(store=>store.cart.items)

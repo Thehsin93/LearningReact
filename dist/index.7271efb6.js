@@ -36467,7 +36467,7 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactRedux = require("react-redux");
 var _mockdata = require("../Constants/Mockdata");
-var _cartSlice = require("../utils/cartSlice");
+var _cartSlice = require("../Utils/cartSlice");
 var _s = $RefreshSig$();
 const ItemList = ({ items })=>{
     _s();
@@ -36583,7 +36583,7 @@ $RefreshReg$(_c, "ItemList");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-redux":"62sf7","../Constants/Mockdata":"47g8f","../utils/cartSlice":"5RXlr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5RXlr":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-redux":"62sf7","../Constants/Mockdata":"47g8f","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../Utils/cartSlice":"ctzQa"}],"ctzQa":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "addItem", ()=>addItem);
@@ -40679,34 +40679,7 @@ const appStore = (0, _toolkit.configureStore)({
 });
 exports.default = appStore;
 
-},{"@reduxjs/toolkit":"fuua8","./cartSlice":"ctzQa","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ctzQa":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "addItem", ()=>addItem);
-parcelHelpers.export(exports, "removeItem", ()=>removeItem);
-parcelHelpers.export(exports, "clearCart", ()=>clearCart);
-var _toolkit = require("@reduxjs/toolkit");
-const cartSlice = (0, _toolkit.createSlice)({
-    name: "cart",
-    initialState: {
-        items: []
-    },
-    reducers: {
-        addItem: (state, action)=>{
-            state.items.push(action.payload);
-        },
-        removeItem: (state, action)=>{
-            state.items.pop();
-        },
-        clearCart: (state, action)=>{
-            state.items.length = 0;
-        }
-    }
-});
-const { addItem, removeItem, clearCart } = cartSlice.actions;
-exports.default = cartSlice.reducer;
-
-},{"@reduxjs/toolkit":"fuua8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"h8J3U":[function(require,module,exports) {
+},{"@reduxjs/toolkit":"fuua8","./cartSlice":"ctzQa","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"h8J3U":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ad24 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -40719,12 +40692,12 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactRedux = require("react-redux");
 var _itemList = require("./ItemList");
 var _itemListDefault = parcelHelpers.interopDefault(_itemList);
-var _cartSlice = require("../utils/cartSlice");
+var _cartSlice = require("../Utils/cartSlice");
 var _s = $RefreshSig$();
 const Cart = ()=>{
     _s();
     const dispatch = (0, _reactRedux.useDispatch)();
-    ClearCart = ()=>{
+    const ClearCart = ()=>{
         dispatch((0, _cartSlice.clearCart)());
     };
     const cartItes = (0, _reactRedux.useSelector)((store)=>store.cart.items);
@@ -40787,6 +40760,6 @@ $RefreshReg$(_c, "Cart");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-redux":"62sf7","./ItemList":"kZjho","../utils/cartSlice":"5RXlr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["9A7zD","1xC6H","2kQhy"], "2kQhy", "parcelRequire4255")
+},{"react/jsx-dev-runtime":"iTorj","react-redux":"62sf7","./ItemList":"kZjho","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../Utils/cartSlice":"ctzQa"}]},["9A7zD","1xC6H","2kQhy"], "2kQhy", "parcelRequire4255")
 
 //# sourceMappingURL=index.7271efb6.js.map
